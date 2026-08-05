@@ -13,7 +13,7 @@ H3 REALITY 伪装 SNI 维护库（Curated H3 REALITY camouflage SNI list）
 ## 当前列表
 
 完整列表以 [`snis.json`](snis.json) 为唯一数据源（机器可读，部署脚本直接拉取解析）。
-当前共 3 条已验证 SNI，全部经真实 Chrome --force-http3 验证。
+当前共 4 条已验证 SNI，全部经真实 Chrome --force-http3 验证。
 
 ## SNI 准入标准（贡献指南）
 

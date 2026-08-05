@@ -1,11 +1,12 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-08-05",
   "description": "全部经真实 Chrome --force-http3 验证的 H3 REALITY 伪装 SNI 列表",
   "maintainer": "lipeiying032",
   "snis": [
-    {"sni": "tv.apple.com", "note": "Apple TV, Chrome 151 实测 H3 200", "tested": "2026-08-05"},
-    {"sni": "gateway.icloud.com", "note": "iCloud 网关, Chrome 151 实测 H3 400", "tested": "2026-08-05"},
-    {"sni": "www.xbox.com", "note": "Xbox www, Chrome 151 实测 H3 200", "tested": "2026-08-05"}
+    {"sni": "gspe35-ssl.ls.apple.com", "note": "手工测试可用", "tested": "2026-08-05"},
+    {"sni": "tv.apple.com", "note": "手工测试可用", "tested": "2026-08-05"},
+    {"sni": "gateway.icloud.com", "note": "手工测试可用", "tested": "2026-08-05"},
+    {"sni": "xbox.com", "note": "手工测试可用", "tested": "2026-08-05"}
   ]
 }
