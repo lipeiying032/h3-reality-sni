@@ -10,13 +10,10 @@ H3 REALITY 伪装 SNI 维护库（Curated H3 REALITY camouflage SNI list）
 - 部署脚本默认行为：用户直接回车 → 从本库随机挑一个 SNI → 自动走 H3 探测验证
 - 避免使用大型泛 CDN / 国内不可达的 SNI 作为伪装目标
 
-## 当前列表（3 条已验证）
+## 当前列表
 
-| SNI | 说明 | 测试日期 |
-| --- | --- | --- |
-| tv.apple.com | Apple TV，Chrome 151 实测 H3 200 | 2026-08-05 |
-| gateway.icloud.com | iCloud 网关，Chrome 151 实测 H3 400（应用层拒，握手成功） | 2026-08-05 |
-| www.xbox.com | Xbox www，Chrome 151 实测 H3 200 | 2026-08-05 |
+完整列表以 [`snis.json`](snis.json) 为唯一数据源（机器可读，部署脚本直接拉取解析）。
+当前共 3 条已验证 SNI，全部经真实 Chrome --force-http3 验证。
 
 ## SNI 准入标准（贡献指南）
 
