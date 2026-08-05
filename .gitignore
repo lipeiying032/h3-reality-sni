@@ -1,0 +1,6 @@
+# 临时文件
+*.log
+*.pcap
+*.bin
+*.tmp
+.DS_Store
